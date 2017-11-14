@@ -1,0 +1,73 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.introduction {
+    color: #ff0000;
+    width: 40%;
+    padding: 6 2%;
+    position: absolute;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.main-nav {
+    color: #ffffff;
+    font-size: 125%;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: gray
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff0000;
+}
+
+a {
+    padding: 0px 10px 0px 0px;
+}
+
+ul {
+    color: #ffffff;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+
+.joshua-tree-photo {
+    height: 250px;
+    width: auto;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.pictures-box {
+    position: absolute;
+    width: 500px;
+    top: 30%;
+    left: 10%;
+    ;
+    text-align: center;
+    background-color: red;
+}
+
+.contact-form {
+    color: red 
+    
+}
