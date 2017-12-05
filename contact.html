@@ -15,6 +15,7 @@
             <li><a href="setlist.html">Setlist</a></li>
             <li><a href="pictures.html">Pics</a></li>
             <li><a href="index.html">Home</a></li>
+             <li><a href="table%20feature.html">Top 5</a></li>
         </ul>
     </nav>
 
@@ -22,44 +23,23 @@
         <h1>
             Contact Us
         </h1>
-        <form methods="get">
+        <form method="get">
             <label>First Name: <input type="text" name="fname" id="fname"></label><br><br>
             <label>Last name: <input type="text" name="lname" id="lname"></label><br><br>
             
             <label>E-Mail: <input type="text" name="email" id="email"></label><br><br>
             
-            <label for="myPassword">Password:</label>
-            <input type="password"name="mypassword"><br><br>
-            
-            <label for "myRating">Rating (1-10):</label>"
+            <label for myRating>Website Rating (1-10):</label>"
             <input type="range" name="myrating" id="myrating" mins="1" max="10"><br><br>
             
             <fieldset>
             <legend>Options</legend>
-            
-            <input type="checkbox" name="myCheckbox"value="Option 1">Option 1<br>
-            <input type="checkbox" name="myCheckbox"value="Option 2">Option 2<br><br>
-                                                           
+        
             <input type="radio" name="gender" value="male">Male<br>
             <input type="radio" name="gender" value="female">female<br><br>
                    </fieldset>
             
-            <head>What's your favorite U2 song they performed that night?</head><br>
-            
-            <select name="favoritesong">
-                <option value="sundaybloodysunday">Sunday Bloody Sunday</option>
-                <option value="newyearsday">New Year's Day</option>
-                <option value="bad">Bad</option>
-                <option value="pride">Pride</option>
-                <option value="wherethestreetshavenoname">Where the Streets Have no Name</option>
-                <option value="stillhaventfound">I Still Haven't Found What I'm Looking For</option>
-                <option value="withorwithoutyou">With or Without You</option>
-                <option value="bulletbluesky">Bullet in the Blue Sky</option>
-                <option value="vertigo">Vertigo</option>
-                <option value="elevation">Elevation</option>
-                <option value="one">One</option>
-               
-            </select> <br><br>
+             <br><br>
             
             <label for="comments">Comments:</label><br><br>
             <textarea name="comments" id="comments" rows="4" cols="40"></textarea><br><br>
@@ -70,33 +50,4 @@
         </form>
     </div>
     
-    <div class="contact-form">
-        <h1 style="text-align: center;">Contact Us</h1>
-        <form style="width: 75%; margin: auto;">
-            <table border= "5">
-                <tr>
-                    <th><label for="firstname">First Name: </label></th>
-                    <td><input type="text" name="firstname" id="firstname"></td>
-                </tr>
-                <tr>
-                    <th><label for="lastname">Last Name: </label></th>
-                    <td><input type="text" name="lastname" id="lastname"></td>
-                </tr>
-                <tr>
-                    <th><label for="email">E-mail: </label></th>
-                    <td><input type="text" name="email" id="email"></td>
-                </tr>
-                <tr>
-                    <th><label for="comments">Comments:</label></th>
-                    <td><textarea name="comments" id="comments" rows="4" cols="40"></textarea></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>
-                        <input type="submit" id="submit" value="Submit">
-                        <input type="reset" id="reset" value="Reset">
-                    </td>
-                </tr>
-            </table>
-        </form>
 </body>

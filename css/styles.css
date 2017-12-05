@@ -13,7 +13,7 @@ h1 {
 .introduction {
     color: #ff0000;
     width: 40%;
-    padding: 6 2%;
+    padding: 1% 50%;
     position: absolute;
     text-align: center;
 }
@@ -29,7 +29,7 @@ h2 {
 }
 
 a:visited {
-    color: gray
+    color: white
 }
 
 a:hover {
